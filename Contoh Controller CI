@@ -1,0 +1,14 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+ 
+class Warung extends CI_Controller {
+ 
+  public function index(){
+    echo "ini adalah method index pada controller Warung";
+  }
+ 
+  public function barang(){
+    echo "ini adalah method barang pada controller Warung";
+  }
+ 
+}
